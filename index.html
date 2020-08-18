@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointstack.io</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div id="tos">
+        <h1 id="agreeno">Do you agree to the terms of conditions?</h1>
+        <h2 id="tosMain">TOS: You must not cheat, and you must not have epilepsy.</h2>
+        <button id="agree" type="button" onclick="grantAccess()">Agree</button>
+        <button id="no" type="button">Disagree</button>
+    </div>
+
+    <button id="clickPlay" type="button" style="display: none"><strong>Click To Play</strong></button>
+    <div id="welcome">
+    <h1 id="welcomeScreen">PointStack.io</h1>
+    </div>
+
+    
+    <div id="main" style="display: none">
+    <button id="upBtn"><strong>Points +1</strong></button>
+    <button id="upBtnX2" style="display: none"><strong>Points +2</strong></button>
+    <h3 id="points">POINTS: 0</h3>
+    <h4 id="plusone"style="display: none">+1</h4>
+    <button id="upgradeBtn" type="button" style="display: none"><strong>UPGRADE Points x2</strong></button>
+    <button id="upgradeBtn2" type="button" style="display: none"><strong>UPGRADE Points x3</strong></button>
+    </div>
+
+    <audio id="pointSound" src="https://cdn.discordapp.com/attachments/699663156011729023/744433220317216828/untitled.mp3"></audio>
+    <audio id="upgradeAva" src="https://cdn.discordapp.com/attachments/699663156011729023/744436283090272316/upgradeavaliable.mp3"></audio>
+
+    <script src="index.js"></script>
+</body>
+</html>
