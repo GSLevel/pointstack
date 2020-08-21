@@ -9,7 +9,7 @@ var clickPlay = document.getElementById("clickPlay");
 var game = document.getElementById("main");
 var plusone = document.getElementById("plusone");
 var tos = document.getElementById("tos");
-var num = 0;
+var num = document.cookie = 0;
 
 
 
